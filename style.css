@@ -1,0 +1,68 @@
+.Navi {
+
+text-align: right; 
+height: 50px;
+line-height: 50px;
+    }
+.men {
+    margin-top: 10px ;
+    margin-left: 180px;
+    margin-right: 0px;
+   
+
+}
+.men a  {
+    clear: right;
+    margin: 0px 15px 0px 10px;
+    line-height: 50px;
+   color: black;
+    
+
+    }
+label {
+    font-size: 20px;
+    line-height: 50px;
+    display: none;
+    margin: 0 40px 0  0;
+    width: 20px
+    }
+#toggle {
+    display: none;
+}
+.mn:hover{
+    background: blue;
+    color: white;
+    border-radius: 20px;
+}
+    
+
+    
+@media  only screen and (max-width: 600px) 
+{
+    label { 
+        display: block;
+        text-align: center;
+        margin-left: 100px;
+
+        
+    }
+    .men {
+    text-align: center; 
+
+    width: 100%;
+    display: none;
+        }
+    .men a {
+    
+    display:block;
+    
+    text-align: center;
+    border-bottom: 1px solid grey;
+    width: 100%
+    }
+    #toggle:checked + .men {
+    display: block;
+    }
+}
+    
+
